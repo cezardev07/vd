@@ -389,8 +389,11 @@ h2{
 @media (max-width: 500px){
     .imagem{
         width: 90vw;
-        height: 150px;
+        height: 195px;
         flex-direction: row;
         margin-left: 20px;
+    }
+    .reco{
+        gap: 55px;
     }
 }
