@@ -251,6 +251,8 @@ span
     width: 98.4%;
     height: 200px;
     margin-left: 0px;
+    border-left: none;
+    border-top: none;
 }
 .lgcanal{
     margin-top: 20px;
@@ -310,8 +312,8 @@ h2{
 
 .reco{
     height: 300px;
-    /* background-color: #1a50ad; */
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-left: 220px;
     margin-top: 20px;
@@ -319,7 +321,6 @@ h2{
 .itens{
     width: 270px;
     height: 160px;
-    /* background: #313131; */
     margin-left: 10px;
 }
 .imagem{
@@ -383,5 +384,13 @@ h2{
         margin-top: 15px;
         margin-left: 10px;
         font-size: 25px;
+    }
+}
+@media (max-width: 500px){
+    .imagem{
+        width: 90vw;
+        height: 150px;
+        flex-direction: row;
+        margin-left: 20px;
     }
 }
